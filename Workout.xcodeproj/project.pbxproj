@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		847490BF2AEA9406006A9D4F /* Workout Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 847490BE2AEA9406006A9D4F /* Workout Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		847490C42AEA9406006A9D4F /* WorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490C32AEA9406006A9D4F /* WorkoutApp.swift */; };
-		847490C62AEA9406006A9D4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490C52AEA9406006A9D4F /* ContentView.swift */; };
+		847490C62AEA9406006A9D4F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490C52AEA9406006A9D4F /* StartView.swift */; };
 		847490C82AEA9408006A9D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847490C72AEA9408006A9D4F /* Assets.xcassets */; };
 		847490CB2AEA9408006A9D4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847490CA2AEA9408006A9D4F /* Preview Assets.xcassets */; };
 		847490D72AEA950E006A9D4F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847490D62AEA950D006A9D4F /* HealthKit.framework */; };
+		847490DD2AEA9639006A9D4F /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490DC2AEA9639006A9D4F /* WorkoutManager.swift */; };
+		847490DF2AEAA6E6006A9D4F /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490DE2AEAA6E6006A9D4F /* SessionPagingView.swift */; };
+		847490E12AEAB72A006A9D4F /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490E02AEAB72A006A9D4F /* ControlsView.swift */; };
+		847490E32AEAB73B006A9D4F /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490E22AEAB73B006A9D4F /* MetricsView.swift */; };
+		847490E52AEAB756006A9D4F /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847490E42AEAB756006A9D4F /* NowPlayingView.swift */; };
+		84AFF30E2AEAC0AE00A34161 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFF30D2AEAC0AE00A34161 /* ElapsedTimeView.swift */; };
+		84AFF3102AEAD03300A34161 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFF30F2AEAD03300A34161 /* SummaryView.swift */; };
+		84AFF3122AEAD7BA00A34161 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFF3112AEAD7BA00A34161 /* ActivityRingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +51,20 @@
 		847490B82AEA9406006A9D4F /* Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847490BE2AEA9406006A9D4F /* Workout Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847490C32AEA9406006A9D4F /* WorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutApp.swift; sourceTree = "<group>"; };
-		847490C52AEA9406006A9D4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		847490C52AEA9406006A9D4F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		847490C72AEA9408006A9D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847490CA2AEA9408006A9D4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		847490D62AEA950D006A9D4F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		847490D82AEA951D006A9D4F /* Workout-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Workout-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		847490D92AEA9525006A9D4F /* Workout Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Workout Watch App.entitlements"; sourceTree = "<group>"; };
+		847490DC2AEA9639006A9D4F /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		847490DE2AEAA6E6006A9D4F /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		847490E02AEAB72A006A9D4F /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		847490E22AEAB73B006A9D4F /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		847490E42AEAB756006A9D4F /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		84AFF30D2AEAC0AE00A34161 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		84AFF30F2AEAD03300A34161 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		84AFF3112AEAD7BA00A34161 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,7 @@
 		847490C22AEA9406006A9D4F /* Workout Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				847490DB2AEA9624006A9D4F /* Controller */,
 				847490DA2AEA9598006A9D4F /* Views */,
 				847490D92AEA9525006A9D4F /* Workout Watch App.entitlements */,
 				847490D82AEA951D006A9D4F /* Workout-Watch-App-Info.plist */,
@@ -113,9 +130,24 @@
 		847490DA2AEA9598006A9D4F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				847490C52AEA9406006A9D4F /* ContentView.swift */,
+				847490C52AEA9406006A9D4F /* StartView.swift */,
+				847490DE2AEAA6E6006A9D4F /* SessionPagingView.swift */,
+				847490E02AEAB72A006A9D4F /* ControlsView.swift */,
+				847490E22AEAB73B006A9D4F /* MetricsView.swift */,
+				847490E42AEAB756006A9D4F /* NowPlayingView.swift */,
+				84AFF30D2AEAC0AE00A34161 /* ElapsedTimeView.swift */,
+				84AFF30F2AEAD03300A34161 /* SummaryView.swift */,
+				84AFF3112AEAD7BA00A34161 /* ActivityRingsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		847490DB2AEA9624006A9D4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847490DC2AEA9639006A9D4F /* WorkoutManager.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847490C62AEA9406006A9D4F /* ContentView.swift in Sources */,
+				84AFF30E2AEAC0AE00A34161 /* ElapsedTimeView.swift in Sources */,
+				847490C62AEA9406006A9D4F /* StartView.swift in Sources */,
 				847490C42AEA9406006A9D4F /* WorkoutApp.swift in Sources */,
+				84AFF3122AEAD7BA00A34161 /* ActivityRingsView.swift in Sources */,
+				847490DD2AEA9639006A9D4F /* WorkoutManager.swift in Sources */,
+				847490E12AEAB72A006A9D4F /* ControlsView.swift in Sources */,
+				847490E32AEAB73B006A9D4F /* MetricsView.swift in Sources */,
+				847490E52AEAB756006A9D4F /* NowPlayingView.swift in Sources */,
+				847490DF2AEAA6E6006A9D4F /* SessionPagingView.swift in Sources */,
+				84AFF3102AEAD03300A34161 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +408,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -400,7 +440,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
